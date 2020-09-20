@@ -1,6 +1,16 @@
 # My bare setup
 
-My github pages were deployed to -> sahilrajput03.github.io/my-app -> in `gh-pages` branch.
+## Sources
+
+- Github Docs - <https://docs.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site>.
+- Create React App Docs - <https://create-react-app.dev/docs/deployment/#github-pages>.
+
+### gh-pages npm package
+
+- With script, "deploy": "gh-pages -d build", we can push **build** to **`gh-pages`** branch of the repository.
+- With script, "deploy": "gh-pages -b master -d build", we can push **build** to **`master`** branch of the repository. 
+
+## My github pages were deployed to -> sahilrajput03.github.io/my-app -> in `gh-pages` branch.
 
 ***
 
